@@ -4,7 +4,7 @@ self.__precacheManifest = [
     "url": "/static/media/ProPicture.e2b222d9.jpg"
   },
   {
-    "revision": "eddfb6f4b02e18db70f5",
+    "revision": "a4209ae57317c10ab98f",
     "url": "/static/css/main.54f2f96b.chunk.css"
   },
   {
@@ -32,8 +32,8 @@ self.__precacheManifest = [
     "url": "/static/media/MelindaRussellResume.05b3be35.docx"
   },
   {
-    "revision": "eddfb6f4b02e18db70f5",
-    "url": "/static/js/main.eddfb6f4.chunk.js"
+    "revision": "a4209ae57317c10ab98f",
+    "url": "/static/js/main.a4209ae5.chunk.js"
   },
   {
     "revision": "9265a0c32d882930861daac1dc20f39b",
@@ -60,7 +60,7 @@ self.__precacheManifest = [
     "url": "/static/media/MelindaRussellResume.70972f59.pdf"
   },
   {
-    "revision": "a9229dbb6fe6087c9c1855d37139b261",
+    "revision": "0f91e4081e52eb18ee7979cac1e31221",
     "url": "/index.html"
   }
 ];
