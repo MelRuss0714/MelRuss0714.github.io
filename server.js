@@ -2,6 +2,7 @@ const express = require('express')
 const bodyParser = require('body-parser')
 const nodemailer = require('nodemailer')
 const app = express()
+const env = require('dotenv').config()
 
 app.use(bodyParser.json())
 app.use(bodyParser.urlencoded({ extended: false }))
@@ -21,14 +22,14 @@ app.post('/api/form', (req, res) => {
         let transporter = nodemailer.createTransport({
             service: 'gmail',
             auth: {
-                user: 'muglina@gmail.com', //email address to send from
-                pass: 'conn0SOAP' //the actual password for that account
+                user: process.env.EM_USER, //email address to send from
+                pass: process.env.EM_PASS //the actual password for that account
             }
         });
 
         let mailOptions = {
             from: req.body.name, // sender address
-            to: 'muglina@gmail.com', // list of receivers
+            to: 'melindasuerussell@yahoo.com', // list of receivers
             replyTo: req.body.email,
             subject: req.body.name + " sent an email from your portfolio", // Subject line
             text: req.body.message, // plain text body
