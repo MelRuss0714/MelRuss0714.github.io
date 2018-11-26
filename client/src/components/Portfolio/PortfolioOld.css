@@ -1,0 +1,71 @@
+.Bubblink {
+    background-color: white;
+    border-style: solid;
+    border-radius: 540px;
+    border-color: #000000;
+    border-width: 5px;
+    width: 200px;
+    position: relative;
+    left: 300px;
+    top: -300px;
+    z-index: 2;
+}
+.SmartRock {
+    background-color: white;
+    border-style: solid;
+    border-radius: 540px;
+    border-color: #000000;
+    border-width: 5px;
+    width: 200px;
+    position: relative;
+    left: 5px;
+    top: -418px;
+    z-index: 2;
+}
+.Poppy{
+    background-color: white;
+    border-style: solid;
+    border-radius: 540px;
+    border-color: #000000;
+    border-width: 5px;
+    width: 200px;
+    position: relative;
+    left: 860px;
+    top: -531px;
+    z-index: 2;
+}
+
+@media screen and (max-width: 510px){
+    .Bubblink {
+        border-style: solid;
+        border-radius: 540px;
+        border-color: #000000;
+        position: static;
+        width: 100%;
+        margin-bottom: 20px;
+
+       
+    } 
+    .SmartRock {
+        border-style: solid;
+        border-radius: 540px;
+        border-color: #000000;
+        position: static;
+        width: 100%;
+        margin-bottom: 20px;
+
+
+       
+    } 
+    .Poppy {
+        border-style: solid;
+        border-radius: 540px;
+        border-color: #000000;
+        position: static;
+        width: 100%;
+        margin-bottom: 100px;
+
+
+       
+    } 
+}
