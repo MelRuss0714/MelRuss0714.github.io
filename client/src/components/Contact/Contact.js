@@ -43,7 +43,7 @@ export default class Contact extends React.Component {
         return (
             <div className='Contact'>
                 <Navbar />
-                <Form action="https://formspree.io/melindasuerussell@gmail.com" method="POST" id='emailForm' onSubmit={this.handleSubmit && this.handleValidSubmission} ref={c => (this.form = c)}>
+                <Form action="https://formspree.io/melindasuerussell@yahoo.com" method="POST" id='emailForm' onSubmit={this.handleSubmit && this.handleValidSubmission} ref={c => (this.form = c)}>
                     <FormGroup>
                         <Label for="name">Name</Label>
                         <Input
